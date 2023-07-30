@@ -26,13 +26,9 @@ Create and Configure Departments & Teams
 Create and Configure Agents (workers) & Users (clients)
 Configure SLA (Service Level Agreements)
 Configure Help Desk Topics
-<h2>Configuration Steps</h2>
-<h3>&#9312; Prerequisites and Installation</h3>
-This demonstration assumes a virtual machine is established with the prerequisite files installed for working osTicket. </br>
-Credentials and configurations that will be used in this demonstration can be found in "Prerequisites and Installation". </br>
 
 <hr>
-<h3>&#9313; Admin Panel - Roles, Departments, Teams, & Agents</h3>
+<h3> Admin Panel - Roles, Departments, Teams, & Agents</h3>
 On the web browser (Microsoft Edge), go to the Help Desk Login Page and sign into your osTicket Help Desk credentials
 Help Desk Login Page -- http://localhost/osTicket/scp/login.php
 
@@ -134,7 +130,7 @@ This example creates Agent "John Doe" | Department: "Level I Support" | Role: "V
 
 
 <hr>
-<h3>&#9314; Agent Panel - Creating Users</h3>
+<h3> Agent Panel - Creating Users</h3>
 Click on "Agent Panel" on the top-right of the page.
 
 ![image](https://github.com/JasonDelahoussaye/post-install-config/assets/106440235/b0d3ad56-2a52-451b-b1a8-8f5a2661a97c)
@@ -155,7 +151,7 @@ Create another user of your choice (this example uses ken@osticket.com / Ken Ken
 
 
 <hr>
-<h3>&#9315; Admin Panel - Configuring SLA</h3>
+<h3> Admin Panel - Configuring SLA</h3>
 "SLA Plans or Service Level Agreements, are unlimited in osTicket. The purpose of the SLA Plan is to provide a length of time in which the help desk Administrator expects tickets to be closed."
 
 Return to the "Admin Panel".
@@ -186,7 +182,7 @@ Click "Add Plan" for each.
 
 
 <hr>
-<h3>&#9316; Configure Help Topics</h3>
+<h3> Configure Help Topics</h3>
 Help Topics will help streamline your end-user’s help desk experience to ensure proper assignment and prompt response to the ticket.
 
 Currently in the Admin Panel, navigate to "Manage" tab > "Help Topics".
@@ -211,5 +207,5 @@ After that, click "Add Topic".
 <hr>
 <h1><p align=center>All Done</p></h1
 
-<h2><p align=center>Next Demonstration:<br><a href="https://github.com/JasonDelahoussaye/ticket-lifecycle">Ticket Lifecycle Examples</a></p></h2>
+<h2><p align=center>Next Demonstration:<br><a href="https://github.com/EriikSu/Ticket-Lifecycle">Ticket Lifecycle Examples</a></p></h2>
 
